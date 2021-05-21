@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SEWA">
+        <activity
+            android:name=".Detail"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.SEWA.NoActionBar"></activity>
+        <activity android:name=".HalamanFaforit" />
+        <activity android:name=".HalamanTerdekat" />
+        <activity android:name=".splashScrean" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
