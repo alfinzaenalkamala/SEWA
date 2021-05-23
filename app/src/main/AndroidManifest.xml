@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SEWA">
+        <activity android:name=".HalamanRegistrasi"></activity>
+        <activity android:name=".HalamanLogin" />
+        <activity android:name=".payment" />
         <activity
             android:name=".Detail"
             android:label="@string/title_activity_detail"
-            android:theme="@style/Theme.SEWA.NoActionBar"></activity>
+            android:theme="@style/Theme.SEWA.NoActionBar" />
         <activity android:name=".HalamanFaforit" />
         <activity android:name=".HalamanTerdekat" />
         <activity android:name=".splashScrean" />
