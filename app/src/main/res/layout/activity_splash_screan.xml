@@ -16,17 +16,20 @@
         android:layout_centerHorizontal="true">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"/>
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginBottom="160dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/iconsewa" />
 
-        <TextView
+        <ProgressBar
+            android:id="@+id/progressBar1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="All In One"
-            android:padding="10dp"
+            android:layout_alignParentBottom="true"
             android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"/>
+            android:layout_marginBottom="51dp" />
     </LinearLayout>
 
 </RelativeLayout>

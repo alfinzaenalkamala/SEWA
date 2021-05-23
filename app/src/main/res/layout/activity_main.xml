@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f9f9fb"
+    android:background="@drawable/bg"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,19 +12,16 @@
     <FrameLayout
         android:layout_width="match_parent"
 
-        android:background="@color/background"
         android:layout_height="match_parent">
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="334dp"
-            android:background="@color/background" />
+            android:layout_height="334dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="22dp"
-            android:background="@color/background"
             android:layout_marginRight="22dp"
             android:orientation="vertical">
 
@@ -33,23 +30,28 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:orientation="horizontal">
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/natalia" />
+
                 <TextView
 
                     android:layout_width="0dp"
-                    android:text="Hai, Natalia"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Hello There ! "
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
                 <View
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
+
                 <ImageView
                     android:id="@+id/buttonfaf"
                     android:layout_width="wrap_content"
@@ -59,47 +61,45 @@
                     android:src="@drawable/button_favorite" />
 
 
-
-
-
-
             </LinearLayout>
 
             <TextView
-                android:layout_width="200dp"
+                android:layout_width="222dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="3dp"
-                android:textAlignment="textStart"
                 android:gravity="center_horizontal"
                 android:lineSpacingExtra="5sp"
                 android:text="@string/salam"
+                android:textAlignment="textStart"
                 android:textColor="@color/black"
-                android:textSize="15sp"
+                android:textSize="16sp"
                 tools:ignore="RtlCompat" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/search_bar"
                 android:orientation="horizontal">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="333dp"
-                    android:textColor="@color/black"
+                    android:layout_height="match_parent"
 
 
-                    android:layout_height="match_parent"/>
+                    android:textColor="@color/black" />
 
                 <ImageButton
 
 
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:tint="@color/black"
                     android:background="@color/white"
-                    android:src="@drawable/carian"
                     android:contextClickable="true"
+                    android:src="@drawable/carian"
+                    android:textAlignment="textEnd"
 
-                    android:textAlignment="textEnd" />
+                    android:tint="@color/black" />
 
                 <!-- <androidx.appcompat.widget.SearchView
                      android:layout_width="match_parent"
@@ -156,7 +156,6 @@
                     app:cardCornerRadius="8dp">
 
 
-
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -204,13 +203,12 @@
                     android:layout_height="match_parent" />
 
 
-
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/buttonpop"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonpop"
                 android:orientation="horizontal">
 
                 <TextView
@@ -257,16 +255,17 @@
                         android:layout_height="155dp"
                         android:scaleType="centerCrop"
                         android:src="@drawable/natalia" />
+
                     <View
                         android:layout_width="match_parent"
-                        android:background="@color/background"
-                        android:layout_height="20dp" />
+                        android:layout_height="20dp"
+                        android:background="@color/background" />
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="155dp"
                         android:scaleType="centerCrop"
                         android:src="@drawable/natalia" />
-
 
 
                 </LinearLayout>
