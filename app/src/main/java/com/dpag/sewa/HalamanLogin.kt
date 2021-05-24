@@ -15,5 +15,11 @@ class HalamanLogin : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent);
         }
+        buatakun.setOnClickListener {
+            // Handler code here.
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent);
+        }
+
     }
 }
