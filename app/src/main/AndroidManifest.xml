@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SEWA">
         <activity android:name=".Landing"></activity>
-        <activity android:name=".HalamanRegistrasi" />
-        <activity android:name=".HalamanLogin" />
+        <activity android:name=".HalamanRegistrasi"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".HalamanLogin"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:name=".payment" />
         <activity
             android:name=".Detail"
@@ -19,8 +21,9 @@
             android:theme="@style/Theme.SEWA.NoActionBar" />
         <activity android:name=".HalamanFaforit" />
         <activity android:name=".HalamanTerdekat" />
-        <activity android:name=".splashScrean" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
