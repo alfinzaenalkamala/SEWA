@@ -19,7 +19,7 @@ class SplashScreen : AppCompatActivity() {
         Handler().postDelayed(object : Runnable {
             override fun run() {
                 // TODO Auto-generated method stub
-                val i = Intent(this@SplashScreen, HalamanLogin::class.java)
+                val i = Intent(this@SplashScreen, Landing::class.java)
                 startActivity(i) // menghubungkan activity splashscren ke main activity dengan intent
 
 
