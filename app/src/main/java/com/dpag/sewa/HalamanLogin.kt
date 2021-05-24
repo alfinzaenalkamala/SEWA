@@ -10,7 +10,7 @@ class HalamanLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_halaman_login)
-        register.setOnClickListener {
+       register.setOnClickListener {
             // Handler code here.
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent);
