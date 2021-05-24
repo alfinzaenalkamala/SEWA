@@ -132,21 +132,22 @@
 
     <LinearLayout
         android:id="@+id/register"
-        android:background="@color/colorAccent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:padding="@dimen/medium"
-        android:gravity="center">
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="@dimen/medium">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="LOGIN"
 
-            android:textStyle="bold"
             android:textColor="@color/white"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </RelativeLayout>
