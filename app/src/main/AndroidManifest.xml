@@ -19,8 +19,8 @@
             android:theme="@style/Theme.SEWA.NoActionBar" />
         <activity android:name=".HalamanFaforit" />
         <activity android:name=".HalamanTerdekat" />
-        <activity android:name=".splashScrean" />
-        <activity android:name=".Landing">
+        <activity android:name=".Landing" />
+        <activity android:name=".splashScrean">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
