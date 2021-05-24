@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SEWA">
-        <activity android:name=".Landing"></activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".HalamanRegistrasi" />
         <activity android:name=".HalamanLogin" />
         <activity android:name=".payment" />
@@ -20,7 +20,7 @@
         <activity android:name=".HalamanFaforit" />
         <activity android:name=".HalamanTerdekat" />
         <activity android:name=".splashScrean" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Landing">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
