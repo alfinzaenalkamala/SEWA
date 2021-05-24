@@ -97,8 +97,9 @@
                     app:cardCornerRadius="8dp">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="155dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:scaleType="centerCrop"
                         android:src="@drawable/card2" />
 
@@ -152,6 +153,15 @@ android:src="@drawable/btnlebih"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="6sp"
+                        android:text="Pilih metode Pembayaran"
+                        android:textColor="#1c1939"
+                        android:textSize="18sp"
+                        android:paddingBottom="10dp"/>
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -226,7 +236,7 @@ android:src="@drawable/btnlebih"
             <ImageButton
                 android:layout_width="wrap_content"
                 android:paddingTop="130dp"
-                android:paddingLeft="60dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:src="@drawable/btnpayment"
