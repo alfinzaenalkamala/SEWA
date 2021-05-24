@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         buttonfaf.setOnClickListener {
             // Handler code here.
-            val intent = Intent(this, HalamanFaforit::class.java)
+            val intent = Intent(this, Chat::class.java)
             startActivity(intent);
         }
         list_terdekat.setOnClickListener {
