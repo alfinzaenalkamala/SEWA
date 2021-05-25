@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, HalamanTerdekat::class.java)
             startActivity(intent);
         }
+        konten1.setOnClickListener {
+            // Handler code here.
+            val intent = Intent(this, ContentDetail::class.java)
+            startActivity(intent);
+        }
         lis_faforit.setOnClickListener {
             // Handler code here.
             val intent = Intent(this, HalamanFaforit::class.java)
