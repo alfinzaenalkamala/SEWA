@@ -11,7 +11,7 @@ class HalamanRegistrasi : AppCompatActivity() {
         setContentView(R.layout.activity_halaman_registrasi)
         register.setOnClickListener {
             // Handler code here.
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, HalamanLogin::class.java)
             startActivity(intent);
         }
     }
