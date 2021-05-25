@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ContentDetail::class.java)
             startActivity(intent);
         }
+        buttonfaf.setOnClickListener {
+            // Handler code here.
+            val intent = Intent(this, Chat::class.java)
+            startActivity(intent);
+        }
         lis_faforit.setOnClickListener {
             // Handler code here.
             val intent = Intent(this, HalamanFaforit::class.java)
