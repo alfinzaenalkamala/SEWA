@@ -50,6 +50,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
+                android:id="@+id/forit"
                 android:layout_height="155dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/natalia" />
